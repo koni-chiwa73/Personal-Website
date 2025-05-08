@@ -6,8 +6,8 @@ menuIcon.onclick = () => { //Menu Icon
     navbar.classList.toggle('active')
 }
 
-document.getElementById("contactBtn").addEventListener("click", function () {
+document.getElementById("contactBtn").addEventListener("click", function () { //Contact Me Button
     document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
-}); //Contact Me Button
+}); 
 
 

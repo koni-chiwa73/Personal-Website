@@ -207,7 +207,6 @@ section{
 
 .about{/*About page*/
     display: grid;
-    /*justify-content: center;*/
     flex-direction: column;
     align-items: center;
     gap: 5rem;
@@ -219,7 +218,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    flex-wrap: wrap; /*Προσαρμογη σε μικρές οθόνες*/
+    flex-wrap: wrap; /*adapt to small screens*/
 }
 .about-img img{
     width: 300px;
