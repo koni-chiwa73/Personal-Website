@@ -169,7 +169,7 @@ section{
 .social-icons a:hover{
     color: var(--text-color);
     background-color: var(--main-color);
-    transform: scale(1.2)translateY();/*bigger and move to the top*/
+    transform: scale(1.2)translateY(-5px);/*bigger and move to the top*/
     box-shadow: 0 0 25px var(--main-color);
 }
 .btn-group{
@@ -477,11 +477,12 @@ section{
     .navbar a{
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 1.5rem 0;
         color: var(--text-color);
     }
     .navbar.active{
         display: block;
+        left: 0;
     }
     .gradient-btn{
         display: none;
