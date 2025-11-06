@@ -9,5 +9,3 @@ menuIcon.onclick = () => { //Menu Icon
 document.getElementById("contactBtn").addEventListener("click", function () { //Contact Me Button
     document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
 }); 
-
-
